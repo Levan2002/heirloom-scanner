@@ -13,3 +13,23 @@ a{color:var(--accent)}
 .wide{width:100%;max-width:560px;display:block;margin:18px auto}
 ul{padding-left:1.2em}li{margin:.3em 0}
 footer{margin-top:48px;color:var(--soft);font-size:14px}
+
+/* guides */
+.g-brand{font:600 40px/1.15 "New York",ui-serif,Georgia,serif}
+.g-brand a{color:var(--ink);text-decoration:none}
+.crumbs{font-size:14px;color:var(--soft);margin:20px 0 18px}
+.crumbs a{color:var(--soft)}
+.guide-art h1{font-size:34px;margin:.2em 0 .4em}
+@media (max-width:480px){.guide-art h1{font-size:28px}.g-brand{font-size:32px}}
+.hero .muted{margin:0}
+.lead{font-size:20px}
+.g-cta{display:inline-block;background:var(--accent);color:var(--paper);font-weight:600;text-decoration:none;padding:11px 20px;border-radius:999px}
+.g-cta-row{margin:16px 0}
+.g-end{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:6px 22px 8px;margin-top:44px}
+.g-end h2{margin-top:16px}
+.g-list,.g-related ul{list-style:none;padding:0}
+.g-list li,.g-related li{padding:12px 0;border-bottom:1px solid var(--line);margin:0}
+.g-list a,.g-related li a{font-weight:600;display:block}
+.g-list span,.g-related li span{display:block;color:var(--soft);font-size:15px}
+ol.steps li,ul.tips li{margin:8px 0}
+ol.steps{padding-left:1.4em}
